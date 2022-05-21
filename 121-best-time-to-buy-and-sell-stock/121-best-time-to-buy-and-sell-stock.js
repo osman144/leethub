@@ -19,7 +19,7 @@ var maxProfit = function(prices) {
             left = right 
         }
         if(profit > result){
-            result = profit;
+            result = Math.max(result, profit);
         }
         right++;
     }
