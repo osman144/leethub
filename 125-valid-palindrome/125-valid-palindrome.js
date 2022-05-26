@@ -10,7 +10,7 @@ var isPalindrome = function(s) {
 //     return(newStr === reverse);
     
     // Two pointer solution 
-    s = s.toLowerCase().replace(/[^A-Z0-9]/ig, "")
+    s = s.replace(/[^A-Z0-9]/ig, "")
     let i = 0;
     let j = s.length-1;
     
