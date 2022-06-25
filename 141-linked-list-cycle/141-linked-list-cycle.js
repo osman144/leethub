@@ -24,4 +24,6 @@ var hasCycle = function(head) {
         if(fastPointer === lagPointer) return true
     }
     return false
+    
+    
 };
