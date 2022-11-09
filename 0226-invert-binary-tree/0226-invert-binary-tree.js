@@ -22,3 +22,6 @@ var invertTree = function(root) {
     
     return root
 };
+
+// Time complexity O(N)
+// Space O(N) 
